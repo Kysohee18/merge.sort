@@ -73,7 +73,16 @@ void MergeSort(int low, int high) {
     }
 }
 
+int main(){
+    cout << "\n=================";
+    cout << "\nProgram merge sort";
+    cout << "\n=================";
+    
+    input();
+    MergeSort(0, n-1);
+    output();
 
+    return
 
 
 
