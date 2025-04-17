@@ -26,7 +26,18 @@ void input() {
         cout <<"array index ke -" << i << ":";
         cin >> arr[i];
     }
+}
 
+void MergerSort(int low, int high) {
+    if (low >= high) { //step1 
+        return;      //step 2
+
+    }
+    
+    int mid = (low + high)/2; //step 2
+
+    //step 3
+    // fungsi rekursi
 
 
 
@@ -34,4 +45,3 @@ void input() {
 
 
 }
-
