@@ -58,7 +58,10 @@ void MergeSort(int low, int high) {
         
 
     }
-    
+    while (j <= high) { //step 4e
+        B[K] = arr[j]; //step.4.e.i
+        j++;
+        k++;
     }
     while(i <=mid){
         B[k] = arr[i];
