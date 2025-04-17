@@ -78,4 +78,12 @@ int main(){
     cout << "\nProgram merge sort";
     cout << "\n=================";
     
+    input();
+    MergeSort(0, n-1);
+    output();
+
+    return 0;
+
+
+
 }
