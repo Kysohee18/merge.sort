@@ -71,11 +71,11 @@ void MergeSort(int low, int high) {
     for(int i = low; i <= high; i++){
         arr[i] = B[i];
     }
+}
+
+int main(){
+    cout << "\n=================";
+    cout << "\nProgram merge sort";
+    cout << "\n=================";
     
-
-
-
-
-
-
 }
